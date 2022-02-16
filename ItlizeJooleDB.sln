@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ItlizeJooleDB", "ItlizeJooleDB\ItlizeJooleDB.sqlproj", "{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D5C6B0-9FA4-4A95-8D5A-716EEF5B11A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C5F0C68-6E91-490E-858E-B1F211742292}
+	EndGlobalSection
+EndGlobal
