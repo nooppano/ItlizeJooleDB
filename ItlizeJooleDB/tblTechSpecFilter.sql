@@ -1,4 +1,6 @@
 ﻿CREATE TABLE [dbo].[tblTechSpecFilter]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[TechSpecFilterID] INT NOT NULL PRIMARY KEY,
+	[Min] INT NULL,
+	[Max] INT NULL
 )

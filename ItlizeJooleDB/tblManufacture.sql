@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[tblManufacture]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[ManufactureID] INT NOT NULL PRIMARY KEY,
+	[ManufactureName] NVARCHAR (50) NULL,
 )

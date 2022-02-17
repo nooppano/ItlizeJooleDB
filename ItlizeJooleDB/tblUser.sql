@@ -1,4 +1,8 @@
 ﻿CREATE TABLE [dbo].[tblUser]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[UserID] INT NOT NULL PRIMARY KEY,
+	[Username] NVARCHAR (30) NOT NULL,
+	[Password]NVARCHAR (30) NOT NULL,
+	[Email] NVARCHAR (30) NOT NULL,
+	[Photo] NVARCHAR (50) NULL
 )
