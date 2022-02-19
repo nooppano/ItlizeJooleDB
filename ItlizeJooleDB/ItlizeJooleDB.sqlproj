@@ -60,10 +60,10 @@
   <ItemGroup>
     <Build Include="tblCategory.sql" />
     <Build Include="tblSubCategory.sql" />
-    <Build Include="tblProduct.sql" />
     <Build Include="tblTechSpecFilter.sql" />
     <Build Include="tblUser.sql" />
     <Build Include="tblType.sql" />
     <Build Include="tblManufacture.sql" />
+    <Build Include="tblProduct.sql" />
   </ItemGroup>
 </Project>
