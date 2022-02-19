@@ -56,7 +56,6 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="tblCategory.sql" />
@@ -66,6 +65,5 @@
     <Build Include="tblUser.sql" />
     <Build Include="tblType.sql" />
     <Build Include="tblManufacture.sql" />
-    <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
   </ItemGroup>
 </Project>
