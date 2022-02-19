@@ -8,10 +8,10 @@
 	[TechSpecFilterID] INT NOT NULL,
 	[Name] NVARCHAR (50) NULL,
 	[Model] NVARCHAR (50) NULL,
-	[Airflow] NVARCHAR (50) NULL,
-	[MaxPower] NVARCHAR (50) NULL,
-	[SoundVolume] NVARCHAR (50) NULL,
-	[FanDiameter] NVARCHAR (50) NULL,
+	[Airflow] FLOAT (50) NULL,
+	[MaxPower] FLOAT (50) NULL,
+	[SoundVolume] FLOAT (50) NULL,
+	[FanDiameter] FLOAT (50) NULL,
 
 	CONSTRAINT [FK_tblCategory_tblProduct] FOREIGN KEY([CatID])
 		REFERENCES [dbo].[tblCategory] ([CatID]) ,
