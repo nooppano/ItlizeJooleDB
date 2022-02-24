@@ -11,6 +11,8 @@
     [MaxPower]         INT    NULL,
     [SoundVolume]      INT    NULL,
     [FanDiameter]      INT    NULL,
+    [ProductPhotoLink] NVARCHAR (MAX) NULL,
+    [ProductSerial]     NVARCHAR(50) NULL,
     PRIMARY KEY CLUSTERED ([ProductID] ASC),
     CONSTRAINT [FK_tblCategory_tblProduct] FOREIGN KEY ([CatID]) REFERENCES [dbo].[tblCategory] ([CatID]),
     CONSTRAINT [FK_tblSubCategory_tblProduct] FOREIGN KEY ([SubCatID]) REFERENCES [dbo].[tblSubCategory] ([SubCatID]),
