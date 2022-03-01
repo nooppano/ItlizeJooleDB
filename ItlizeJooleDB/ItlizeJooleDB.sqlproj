@@ -69,4 +69,13 @@
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\JooleProject\DataAccess\DataAccess.csproj">
+      <Name>DataAccess</Name>
+      <Project>{d51f4e3d-13aa-4f36-a4fb-ea78c0048791}</Project>
+      <Private>True</Private>
+      <IsModelAware>True</IsModelAware>
+      <GenerateSqlClrDdl>True</GenerateSqlClrDdl>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
